@@ -17,4 +17,11 @@ public class GitHubSpringDemoApplication {
     public String ping(){
         return "pong";
     }
+
+
+    @GetMapping("/pin")
+    public String pin(){
+        return "pong";
+    }
+
 }
